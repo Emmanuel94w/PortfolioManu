@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Coulombel — Portfolio BTS SIO SISR</title>
+  <meta name="description"
+    content="Portfolio d'Emmanuel Coulombel, étudiant en BTS SIO option SISR au Lycée Paul Bert. Spécialisé en administration systèmes, réseaux et cybersécurité.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- BG Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#accueil" class="nav-logo">
+        <div class="logo-icon">EC</div>
+        <div>
+          <div>Emmanuel Coulombel</div>
+          <div class="logo-sub">BTS SIO — SISR</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#accueil" class="nav-link">Accueil</a>
+        <a href="#presentation" class="nav-link">Présentation</a>
+        <a href="#formations" class="nav-link">Formations</a>
+        <a href="#competences" class="nav-link">Compétences</a>
+        <a href="#projets" class="nav-link">Projets E6</a>
+        <a href="#procedures" class="nav-link">Procédures</a>
+        <a href="#alternance" class="nav-link">Alternance</a>
+        <a href="#veille" class="nav-link">Veille</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="burger" onclick="toggleMenu()" aria-label="Menu"><i class="fas fa-bars"></i></button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#presentation">Présentation</a>
+      <a href="#formations">Formations</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets E6</a>
+      <a href="#procedures">Procédures</a>
+      <a href="#alternance">Alternance</a>
+      <a href="#veille">Veille</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="dot"></span> Disponible en alternance</div>
+      <h1>
+        Emmanuel Coulombel<br>
+        <span class="gradient">Futur Administrateur Systèmes &amp; Réseaux</span>
+      </h1>
+      <p class="hero-sub">
+        Étudiant en <strong>BTS SIO option SISR</strong> au <strong>Lycée Paul Bert</strong> à Maisons-Alfort.<br>
+        Cursus en alternance sur 2 ans — passionné par <span class="typewriter" id="typewriter"></span><span
+          class="typewriter-cursor"></span>
+      </p>
+      <div class="hero-buttons">
+        <a href="#projets" class="btn-primary"><i class="fas fa-folder-open"></i> Mes Projets</a>
+        <a href="Portfolio BTS SIO - Infrastructures réseaux.pdf" target="_blank" class="btn-outline"><i
+            class="fas fa-file-pdf"></i> Mon Portfolio PDF</a>
+      </div>
+    </div>
+    <div class="scroll-indicator"><i class="fas fa-chevron-down"></i></div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Active Directory</span><span class="marquee-dot">●</span>
+      <span>Cisco HSRP</span><span class="marquee-dot">●</span>
+      <span>Windows Server</span><span class="marquee-dot">●</span>
+      <span>VMware ESXi</span><span class="marquee-dot">●</span>
+      <span>VLAN</span><span class="marquee-dot">●</span>
+      <span>Fibre Optique</span><span class="marquee-dot">●</span>
+      <span>GLPI</span><span class="marquee-dot">●</span>
+      <span>Cisco IOS</span><span class="marquee-dot">●</span>
+      <span>AD DS</span><span class="marquee-dot">●</span>
+      <span>Haute Disponibilité</span><span class="marquee-dot">●</span>
+      <span>Cybersécurité</span><span class="marquee-dot">●</span>
+      <span>ToIP Cisco</span><span class="marquee-dot">●</span>
+      <!-- Duplicate for seamless loop -->
+      <span>Active Directory</span><span class="marquee-dot">●</span>
+      <span>Cisco HSRP</span><span class="marquee-dot">●</span>
+      <span>Windows Server</span><span class="marquee-dot">●</span>
+      <span>VMware ESXi</span><span class="marquee-dot">●</span>
+      <span>VLAN</span><span class="marquee-dot">●</span>
+      <span>Fibre Optique</span><span class="marquee-dot">●</span>
+      <span>GLPI</span><span class="marquee-dot">●</span>
+      <span>Cisco IOS</span><span class="marquee-dot">●</span>
+      <span>AD DS</span><span class="marquee-dot">●</span>
+      <span>Haute Disponibilité</span><span class="marquee-dot">●</span>
+      <span>Cybersécurité</span><span class="marquee-dot">●</span>
+      <span>ToIP Cisco</span><span class="marquee-dot">●</span>
+    </div>
+  </div>
+
+  <!-- PRESENTATION -->
+  <section class="section-pad" id="presentation">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">À <span class="accent">Propos</span></h2>
+        <p class="section-sub">Un profil technique spécialisé en infrastructure réseaux et systèmes</p>
+      </div>
+      <div class="about-grid">
+        <div class="fade-up">
+          <div class="about-text">
+            <p>
+              Titulaire d'un <strong>Bac Pro Systèmes Numériques (SN)</strong> option RISC obtenu avec
+              <strong>mention Assez Bien</strong>, je poursuis actuellement un <strong>BTS SIO option SISR</strong>
+              (Solutions d'Infrastructure, Systèmes et Réseaux) au <strong>Lycée Paul Bert</strong> à
+              Maisons-Alfort, en alternance sur 2 ans.
+            </p>
+            <p>
+              Mon profil combine une solide expérience en <strong>déploiement physique d'infrastructure</strong>
+              — câblage RJ45, tirage de fibre optique, brassage en baie — et en <strong>administration
+                logicielle</strong> : Active Directory, équipements Cisco, supervision réseau.
+            </p>
+            <p>
+              Mon objectif est de devenir <strong>Administrateur Systèmes et Réseaux</strong>, en concevant
+              des infrastructures robustes, sécurisées et performantes. Je suis rigoureux, autonome et
+              toujours en quête de nouvelles compétences techniques.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-num">2 ans</div>
+              <div class="stat-label">Formation alternance</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">SISR</div>
+              <div class="stat-label">Spécialisation Infra</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">Bac Pro</div>
+              <div class="stat-label">SN — Mention AB</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">Motivation</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual fade-up">
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span class="terminal-title">emmanuel@sisr:~</span>
+            </div>
+            <div class="terminal-body">
+              <div><span class="prompt">$ </span><span class="cmd">whoami</span></div>
+              <div>Emmanuel Coulombel</div>
+              <br>
+              <div><span class="prompt">$ </span><span class="cmd">cat formation.txt</span></div>
+              <div>BTS SIO option SISR — Lycée Paul Bert</div>
+              <div>Bac Pro SN option RISC — Mention AB</div>
+              <div>Alternance 2 ans</div>
+              <br>
+              <div><span class="prompt">$ </span><span class="cmd">cat skills.txt</span></div>
+              <div>Active Directory &amp; Windows Server</div>
+              <div>Cisco Switching &amp; Routing</div>
+              <div>Fibre Optique &amp; Câblage RJ45</div>
+              <br>
+              <div><span class="prompt">$ </span><span class="cmd">echo $OBJECTIF</span></div>
+              <div style="color:var(--accent);">Administrateur Systèmes &amp; Réseaux</div>
+              <br>
+              <div><span class="prompt">$ </span><span class="cmd">_</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATIONS -->
+  <section class="section-pad section-alt" id="formations">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Mes <span class="accent">Formations</span></h2>
+        <p class="section-sub">Parcours académique en systèmes numériques et infrastructures</p>
+      </div>
+      <div class="timeline fade-up">
+        <!-- Formation 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3><i class="fas fa-graduation-cap" style="color:var(--accent);margin-right:0.5rem;"></i>BTS SIO option
+              SISR</h3>
+            <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2024 – 2026 · En cours</span>
+            <p><strong>Lycée Paul Bert</strong> — Maisons-Alfort</p>
+            <p>Solutions d'Infrastructure, Systèmes et Réseaux. Formation en alternance sur 2 ans, axée sur
+              l'administration des systèmes, les réseaux d'entreprise et la cybersécurité.</p>
+          </div>
+        </div>
+        <!-- Formation 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3><i class="fas fa-award" style="color:var(--accent);margin-right:0.5rem;"></i>Bac Pro SN — Option RISC
+            </h3>
+            <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Obtenu · Mention Assez Bien</span>
+            <p><strong>Lycée Paul Bert</strong> — Maisons-Alfort</p>
+            <p>Systèmes Numériques – Réseaux Informatiques et Systèmes Communicants.</p>
+            <ul>
+              <li>Installation &amp; maintenance réseau</li>
+              <li>Configuration d'équipements actifs</li>
+              <li>Câblage structuré (cuivre &amp; fibre)</li>
+              <li>Électronique et systèmes embarqués</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section class="section-pad" id="competences">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Mes <span class="accent">Compétences</span></h2>
+        <p class="section-sub">Compétences techniques acquises en formation et en entreprise</p>
+      </div>
+      <div class="skills-grid">
+        <!-- Card 1 — Systèmes -->
+        <div class="glass-card skill-card fade-up">
+          <div class="skill-icon blue"><i class="fas fa-server"></i></div>
+          <h3>Systèmes</h3>
+          <p>Administration d'environnements Windows Server, gestion des identités et des stratégies de groupe.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Windows Server</span>
+            <span class="skill-tag">Active Directory</span>
+            <span class="skill-tag">GPO</span>
+            <span class="skill-tag">PowerShell</span>
+            <span class="skill-tag">DNS / DHCP</span>
+          </div>
+        </div>
+        <!-- Card 2 — Réseaux -->
+        <div class="glass-card skill-card fade-up">
+          <div class="skill-icon green"><i class="fas fa-network-wired"></i></div>
+          <h3>Réseaux</h3>
+          <p>Configuration d'équipements Cisco, segmentation VLAN, routage et téléphonie IP d'entreprise.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Cisco IOS</span>
+            <span class="skill-tag">Switching</span>
+            <span class="skill-tag">Routing</span>
+            <span class="skill-tag">VLANs</span>
+            <span class="skill-tag">Téléphonie IP (Cisco)</span>
+            <span class="skill-tag">TCP/IP</span>
+          </div>
+        </div>
+        <!-- Card 3 — Infrastructure Physique -->
+        <div class="glass-card skill-card fade-up">
+          <div class="skill-icon purple"><i class="fas fa-ethernet"></i></div>
+          <h3>Infrastructure Physique</h3>
+          <p>Déploiement physique en datacenter et locaux techniques : câblage cuivre, fibre optique et brassage en
+            baie.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Câblage RJ45 (Torons)</span>
+            <span class="skill-tag">Fibre Optique</span>
+            <span class="skill-tag">Rocades inter-bâtiments</span>
+            <span class="skill-tag">Brassage en baie</span>
+            <span class="skill-tag">Stacking switchs</span>
+          </div>
+        </div>
+        <!-- Card 4 — Gestion & Supervision -->
+        <div class="glass-card skill-card fade-up">
+          <div class="skill-icon red"><i class="fas fa-chart-line"></i></div>
+          <h3>Gestion &amp; Supervision</h3>
+          <p>Gestion de parc informatique, traitement de tickets et supervision proactive de l'infrastructure réseau.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">GLPI</span>
+            <span class="skill-tag">Gestion de parc</span>
+            <span class="skill-tag">Tickets / DMI</span>
+            <span class="skill-tag">Supervision réseau</span>
+            <span class="skill-tag">Outils internes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS E6 — Réalisations Professionnelles -->
+  <section class="section-pad section-alt" id="projets">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Projets <span class="accent">E6</span></h2>
+        <p class="section-sub">Réalisations professionnelles — Groupe LGi2A (Laboratoires Gouvernementaux pour
+          l'Industrie Agroalimentaire)</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- E6 N°1 — Mission 6 HSRP -->
+        <div class="glass-card project-card fade-up">
+          <div class="project-header">
+            <div class="project-icon" style="background:rgba(59,130,246,0.15);color:#3b82f6;">
+              <i class="fas fa-route"></i>
+            </div>
+            <div>
+              <h3>Mission 6 — Tolérance de Panne Routeurs (HSRP)</h3>
+              <span class="tag">E6 — Réalisation N°1</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-context">
+              <i class="fas fa-map-marker-alt"></i> Laboratoire LNR 21 — Dijon
+            </div>
+            <p><strong>Objectif :</strong> Assurer la continuité de service réseau en cas de défaillance du routeur
+              principal en mettant en œuvre un protocole de tolérance de panne.</p>
+            <p><strong>Réalisation :</strong> Implémentation du protocole <strong>HSRP</strong> (Hot Standby Router
+              Protocol) sur deux routeurs Cisco. Création d'une adresse IP virtuelle (passerelle par défaut), définition
+              des priorités et activation du mode préemptif pour une bascule automatique et transparente.</p>
+            <div class="project-techs">
+              <span class="project-tech">Cisco IOS</span>
+              <span class="project-tech">HSRP</span>
+              <span class="project-tech">Haute Disponibilité</span>
+              <span class="project-tech">IP Virtuelle</span>
+              <span class="project-tech">Routage</span>
+            </div>
+            <div style="margin-top:1.5rem; display:flex; gap:0.6rem; flex-wrap:wrap;">
+              <a href="projet/Emmanuel - ÉpreuveE5_fiche_situationProfessionnelle1.docx.pdf" target="_blank"
+                class="btn-outline" style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i class="fas fa-file-pdf"></i>
+                Fiche E6</a>
+              <a href="projet/Mission 6 _ MISE EN ŒUVRE D'UN PROTOCOLE DE TOLÉRANCE DE PANNE DE ROUTEURS.pdf"
+                target="_blank" class="btn-outline" style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i
+                  class="fas fa-file-pdf"></i> Rapport Mission 6</a>
+            </div>
+            <div class="glass-card project-card fade-up">
+              <div class="project-header">
+                <div class="project-icon" style="background:rgba(251,146,60,0.15);color:#fb923c;">
+                  <i class="fas fa-tasks"></i>
+                </div>
+                <div>
+                  <h3>Mission 1 — Préparation d'un Commutateur d'Accès</h3>
+                  <span class="tag">E6 — Réalisation N°2</span>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-context">
+                  <i class="fas fa-building"></i> Groupe LGi2A — Mission terrain
+                </div>
+                <p><strong>Objectif :</strong> Préparer et configurer un commutateur d'accès (switch) avant son
+                  déploiement sur site.</p>
+                <p><strong>Réalisation :</strong> Configuration des VLANs, activation de la sécurité des ports
+                  (port-security), mise à jour du firmware et injection de la configuration via clé USB sécurisée. Tests
+                  de connectivité et validation avant déploiement en production.</p>
+                <div class="project-techs">
+                  <span class="project-tech">Cisco IOS</span>
+                  <span class="project-tech">VLANs</span>
+                  <span class="project-tech">Port-Security</span>
+                  <span class="project-tech">Switching</span>
+                  <span class="project-tech">Firmware</span>
+                </div>
+                <div style="margin-top:1.5rem;">
+                  <a href="projet/Manu_MISSION1.pdf" target="_blank" class="btn-outline"
+                    style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i class="fas fa-file-pdf"></i> Voir le rapport
+                    Mission 1</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- E6 N°3 — Mission 2 Plan d'adressage -->
+            <div class="glass-card project-card fade-up">
+              <div class="project-header">
+                <div class="project-icon" style="background:rgba(20,184,166,0.15);color:#14b8a6;">
+                  <i class="fas fa-sitemap"></i>
+                </div>
+                <div>
+                  <h3>Mission 2 — Plan d'Adressage IP LGi2A</h3>
+                  <span class="tag">E6 — Réalisation N°3</span>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-context">
+                  <i class="fas fa-map-marker-alt"></i> Modernisation infrastructure nationale LGi2A
+                </div>
+                <p><strong>Objectif :</strong> Concevoir et documenter un plan d'adressage IP cohérent pour l'ensemble
+                  des sites du groupe LGi2A dans le cadre de la modernisation de l'infrastructure.</p>
+                <p><strong>Réalisation :</strong> Analyse du contexte réseau existant, définition du découpage en
+                  sous-réseaux (réseau 10.0.0.0), attribution des plages par VLAN et par usage (serveurs, utilisateurs,
+                  ToIP), rédaction du plan d'adressage complet.</p>
+                <div class="project-techs">
+                  <span class="project-tech">Plan d'adressage</span>
+                  <span class="project-tech">Sous-réseaux</span>
+                  <span class="project-tech">VLANs</span>
+                  <span class="project-tech">TCP/IP</span>
+                  <span class="project-tech">Documentation</span>
+                </div>
+                <div style="margin-top:1.5rem;">
+                  <a href="projet/mission2.pdf" target="_blank" class="btn-outline"
+                    style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i class="fas fa-file-pdf"></i> Rapport Mission
+                    2</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- E6 N°4 — Mission 4 Cœur de Réseau -->
+            <div class="glass-card project-card fade-up">
+              <div class="project-header">
+                <div class="project-icon" style="background:rgba(236,72,153,0.15);color:#ec4899;">
+                  <i class="fas fa-network-wired"></i>
+                </div>
+                <div>
+                  <h3>Mission 4 — Préparation, Configuration et Installation du Cœur de Réseau</h3>
+                  <span class="tag">E6 — Réalisation N°4</span>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-context">
+                  <i class="fas fa-building"></i> Infrastructure LGi2A — Déploiement Physique
+                </div>
+                <p><strong>Objectif :</strong> Mettre en place et configurer l'équipement central (Cœur de Réseau)
+                  permettant d'interconnecter l'ensemble des infrastructures du site.</p>
+                <p><strong>Réalisation :</strong> Préparation matérielle et logicielle du commutateur cœur de réseau.
+                  Déploiement de la configuration de base, mise en place des protocoles de routage internes,
+                  configuration des liens d'agrégation (LACP), sécurisation des accès et brassage physique en baie
+                  informatique.</p>
+                <div class="project-techs">
+                  <span class="project-tech">Cisco IOS</span>
+                  <span class="project-tech">Cœur de Réseau</span>
+                  <span class="project-tech">Switching L3</span>
+                  <span class="project-tech">Routage</span>
+                  <span class="project-tech">LACP</span>
+                </div>
+                <div style="margin-top:1.5rem;">
+                  <a href="projet/Mission 4.pdf" target="_blank" class="btn-outline"
+                    style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i class="fas fa-file-pdf"></i> Rapport Mission
+                    4</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+  </section>
+
+  <!-- PROCEDURES -->
+  <section class="section-pad" id="procedures">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Mes <span class="accent">Procédures</span></h2>
+        <p class="section-sub">Documentation technique rédigée lors des missions en entreprise et en formation</p>
+      </div>
+      <div class="projects-grid fade-up">
+
+        <!-- Procédure GLPI -->
+        <div class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:rgba(34,197,94,0.15);color:#22c55e;">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <div>
+              <h3>Procédure d'installation GLPI</h3>
+              <span class="tag">Documentation Technique</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-context">
+              <i class="fas fa-tools"></i> Gestion de Parc &amp; Helpdesk
+            </div>
+            <p><strong>Objectif :</strong> Documenter étape par étape le processus d'installation et de configuration de
+              <strong>GLPI</strong> (Gestionnaire Libre de Parc Informatique) pour le déploiement en entreprise.
+            </p>
+            <p><strong>Contenu :</strong> Pré-requis système, installation du serveur web (Apache/PHP), déploiement de
+              la base de données MySQL, configuration initiale, création des comptes administrateurs et validation
+              fonctionnelle.</p>
+            <div class="project-techs">
+              <span class="project-tech">GLPI</span>
+              <span class="project-tech">Apache / PHP</span>
+              <span class="project-tech">MySQL</span>
+              <span class="project-tech">Gestion de parc</span>
+              <span class="project-tech">Helpdesk</span>
+            </div>
+            <div style="margin-top:1.5rem;">
+              <a href="projet/Procédure GLPI (1).pdf" target="_blank" class="btn-outline"
+                style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i class="fas fa-file-pdf"></i> Consulter la
+                procédure</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contexte LGi2A -->
+        <div class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:rgba(139,92,246,0.15);color:#8b5cf6;">
+              <i class="fas fa-building-columns"></i>
+            </div>
+            <div>
+              <h3>Contexte LGi2A — Infrastructure Nationale</h3>
+              <span class="tag">Document de Référence</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-context">
+              <i class="fas fa-sitemap"></i> Groupe LGi2A — Laboratoires Gouvernementaux
+            </div>
+            <p><strong>Contenu :</strong> Document de référence décrivant le contexte général de l'infrastructure du
+              groupe LGi2A : organisation des sites, topologie réseau nationale, équipements en place (VLANs, switchs,
+              routeurs), contraintes et objectifs de la modernisation.</p>
+            <p>Ce document sert de base pour l'ensemble des réalisations professionnelles E6 rattachées au contexte
+              LGi2A.</p>
+            <div class="project-techs">
+              <span class="project-tech">Architecture réseau</span>
+              <span class="project-tech">VLANs</span>
+              <span class="project-tech">Plan d'adressage</span>
+              <span class="project-tech">Documentation</span>
+            </div>
+            <div style="margin-top:1.5rem;">
+              <a href="projet/CONTEXTE LGI2A.pdf" target="_blank" class="btn-outline"
+                style="padding:0.4rem 0.8rem; font-size:0.8rem;"><i class="fas fa-file-pdf"></i> Voir le contexte
+                LGi2A</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ALTERNANCE -->
+  <section class="section-pad" id="alternance">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Mon <span class="accent">Alternance</span></h2>
+        <p class="section-sub">Expérience professionnelle sur 2 ans en entreprise</p>
+        <p class="confidentiality-notice"><em>Pour des raisons de sécurité et de confidentialité, le nom de l'entreprise
+            d'accueil ainsi que les outils logiciels propriétaires ne sont pas cités.</em></p>
+      </div>
+      <div class="timeline fade-up">
+        <!-- Year 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3>Année 2 — Expertise &amp; Autonomie</h3>
+            <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025 – 2026</span>
+            <ul>
+              <li><strong>Infrastructure Réseau Complexe :</strong> Préparation de piles (stacks) de switchs pour le
+                réseau d'un nouveau bâtiment (mise à jour firmware et injection de configuration via clé USB sécurisée).
+              </li>
+              <li><strong>Ingénierie Fibre Optique :</strong> Création de nouveaux chemins de fibre inter-bâtiments
+                (rocades). Conception de schémas techniques (numérotation des fibres, traçage point A vers point B) et
+                mise à jour de la documentation d'infrastructure.</li>
+              <li><strong>Déploiement Physique Grande Échelle :</strong> Préparation de torons de câbles RJ45 pour
+                l'équipement d'un nouveau bâtiment de 3 étages (environ 60 switchs au total, 2 locaux techniques par
+                étage, 4 torons de 12 câbles par switch).</li>
+              <li><strong>Maintien en Condition Opérationnelle (MCO) :</strong>
+                <ul>
+                  <li>Supervision en temps réel via outils internes (réaction immédiate sur les alertes « lien rouge »).
+                  </li>
+                  <li>Traitement autonome des tickets incidents et demandes de mise en œuvre (DMI).</li>
+                  <li>Remplacement de switchs défectueux avec mise à jour et installation de configuration.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Year 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3>Année 1 — Apprentissage &amp; Déploiement</h3>
+            <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2024 – 2025</span>
+            <ul>
+              <li><strong>Support et Maintenance (Accompagné) :</strong>
+                <ul>
+                  <li>Traitement des tickets et DMI : brassage de prises réseau en baie informatique.</li>
+                  <li>Supervision de l'infrastructure et détection d'anomalies réseau.</li>
+                  <li>Remplacement ponctuel de switchs et mise à jour de configuration.</li>
+                </ul>
+              </li>
+              <li><strong>Téléphonie sur IP (ToIP) :</strong> Gestion de la flotte Cisco (création et suppression de
+                lignes via interface métier interne).</li>
+              <li><strong>Infrastructure :</strong> Début de montée en compétences sur la préparation de torons de
+                câbles RJ45 en fin d'année.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VEILLE TECHNOLOGIQUE -->
+  <section class="section-pad section-alt" id="veille">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Veille <span class="accent">Technologique</span></h2>
+        <p class="section-sub">Méthodologie, Outils et Analyse.</p>
+      </div>
+
+      <!-- Introduction & Methodology -->
+      <div class="veille-intro glass-card fade-up" style="margin-bottom: 2.5rem;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom:0.5rem;">L'Impact de l'IA sur la Cybersécurité
+            </h3>
+            <span class="tag"
+              style="background:var(--accent-dim); color:var(--accent); padding:0.3rem 0.8rem; border-radius:99px; font-size:0.75rem; font-weight:700;">Thème
+              2024-2025</span>
+          </div>
+          <div class="skill-tags" style="gap:0.5rem; flex-wrap:wrap;">
+            <span class="skill-tag">Deepfakes</span>
+            <span class="skill-tag">Malwares IA</span>
+            <span class="skill-tag">SOC Automatisé</span>
+          </div>
+        </div>
+
+        <div
+          style="margin-top: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+          <div>
+            <h4 style="color:#ef4444; margin-bottom: 0.8rem; display:flex; align-items:center; gap:0.5rem;"><i
+                class="fas fa-biohazard"></i> Nouvelles Menaces</h4>
+            <p style="font-size:0.9rem; color:var(--text-sec); line-height:1.6;">L'IA permet aux attaquants de générer
+              des campagnes de phishing ultra-personnalisées et crédibles à grande échelle. Les malwares "polymorphes"
+              générés par IA modifient leur code en temps réel pour échapper aux antivirus classiques.</p>
+          </div>
+          <div>
+            <h4 style="color:var(--accent); margin-bottom: 0.8rem; display:flex; align-items:center; gap:0.5rem;"><i
+                class="fas fa-shield-virus"></i> Défense Intelligente</h4>
+            <p style="font-size:0.9rem; color:var(--text-sec); line-height:1.6;">En réponse, les SOC (Security
+              Operations Centers) intègrent le Machine Learning pour détecter les anomalies comportementales sur le
+              réseau (UEBA) plus rapidement qu'un humain ne pourrait le faire.</p>
+          </div>
+        </div>
+
+        <hr style="border:0; border-top:1px solid var(--card-border); margin: 2rem 0;">
+
+        <div>
+          <h4 style="margin-bottom: 0.8rem; font-size:1.1rem;">Méthodologie & Sources Principales</h4>
+          <p style="font-size:0.9rem; color:var(--text-sec); margin-bottom: 1rem;">J'utilise un agrégateur de flux RSS
+            pour centraliser l'information et gagner du temps.</p>
+          <div class="skill-tags" style="gap:0.6rem;">
+            <span class="skill-tag"
+              style="background:rgba(0,187,45,0.1); border-color:rgba(0,187,45,0.2); color:#00bb2d;"><i
+                class="fas fa-rss"></i> Feedly</span>
+            <span class="skill-tag"
+              style="background:rgba(29,161,242,0.1); border-color:rgba(29,161,242,0.2); color:#1da1f2;"><i
+                class="fab fa-twitter"></i> Twitter/X</span>
+            <span class="skill-tag"><i class="fas fa-shield-halved"></i> ANSSI (Cert-FR)</span>
+            <span class="skill-tag"><i class="fas fa-newspaper"></i> ZDNet Sécurité</span>
+            <span class="skill-tag"><i class="fas fa-laptop-code"></i> BleepingComputer</span>
+            <span class="skill-tag"><i class="fas fa-user-secret"></i> The Hacker News</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analyse Prospective Header -->
+      <div class="veille-header glass-card fade-up"
+        style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 1.5rem; margin-bottom: 1.5rem; background:rgba(255,255,255,0.02);">
+        <div>
+          <h3
+            style="font-size: 1.6rem; font-weight: 800; display:flex; align-items:center; gap:0.6rem; margin-bottom:0.4rem;">
+            <i class="fas fa-brain" style="color:#e879f9;"></i> Analyse Prospective 2025-2026
+          </h3>
+          <p style="font-size:0.9rem; color:var(--text-sec); max-width: 700px;">L’Évolution du Paradigme de la
+            Cybersécurité à l’Ère de l’IA. De l'automatisation de l'attaque vers le SOC Autonome.</p>
+        </div>
+        <a href="projet/IA et Cybersécurité _ Impacts et Défis.pdf" target="_blank" class="btn-primary"
+          style="background:#e8b5ff; color:#1e0033; box-shadow: 0 0 20px rgba(232,181,255,0.3); border:none; flex-shrink:0;">
+          <i class="fas fa-file-pdf"></i> Lire le Dossier Complet
+        </a>
+      </div>
+
+      <!-- Analyse Prospective Grid -->
+      <div class="veille-grid">
+        <!-- Column 1 -->
+        <div class="glass-card veille-col fade-up">
+          <div class="veille-col-header"
+            style="display:flex; align-items:center; gap:0.8rem; margin-bottom: 1.2rem; padding-bottom:1.2rem; border-bottom:1px solid var(--card-border);">
+            <div
+              style="width:38px; height:38px; border-radius:10px; background:rgba(239,68,68,0.15); color:#ef4444; display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">
+              <i class="fas fa-tachometer-alt"></i>
+            </div>
+            <div>
+              <h4 style="font-size:1rem; font-weight:800; color:var(--text);">Vélocité d'Attaque</h4>
+              <div
+                style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">
+                Breakout Time</div>
+            </div>
+          </div>
+
+          <div class="veille-card">
+            <h5>Chute du Breakout Time</h5>
+            <p>En 2025, le temps moyen mis par un adversaire pour se déplacer latéralement (breakout time) a chuté à
+              <strong>29 minutes</strong> (contre 62 min en 2024), soit une accélération de 65% grâce à l'IA.
+            </p>
+          </div>
+          <div class="veille-card">
+            <h5>Living Off the AI Land</h5>
+            <p>82% des détections "malware-free" utilisent des IA internes d'entreprise comme outils pour extraire des
+              secrets ou comprendre le réseau, échappant aux détections classiques.</p>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="glass-card veille-col fade-up" style="transition-delay: 0.1s;">
+          <div class="veille-col-header"
+            style="display:flex; align-items:center; gap:0.8rem; margin-bottom: 1.2rem; padding-bottom:1.2rem; border-bottom:1px solid var(--card-border);">
+            <div
+              style="width:38px; height:38px; border-radius:10px; background:rgba(168,85,247,0.15); color:#a855f7; display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">
+              <i class="fas fa-masks-theater"></i>
+            </div>
+            <div>
+              <h4 style="font-size:1rem; font-weight:800; color:var(--text);">Déception Synthétique</h4>
+              <div
+                style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">
+                Deepfakes & Polymorphisme</div>
+            </div>
+          </div>
+
+          <div class="veille-card">
+            <h5>Deepfakes & Ingénierie</h5>
+            <p>Une fraude BEC record a coûté <strong>25 millions $</strong> à Hong Kong avec une visio où tous les
+              participants étaient des clones. 51% du spam actuel est écrit par IA (phishing sans erreur multilingue).
+            </p>
+          </div>
+          <div class="veille-card">
+            <h5>Malwares IA & IDPI</h5>
+            <p>Des prototypes comme <strong>Promptflux</strong> utilisent Gemini pour réécrire leur propre payload
+              toutes les heures, échappant à 100% à l'EDR. Risque majeur d'injections de requêtes indirectes (IDPI).</p>
+          </div>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="glass-card veille-col fade-up" style="transition-delay: 0.2s;">
+          <div class="veille-col-header"
+            style="display:flex; align-items:center; gap:0.8rem; margin-bottom: 1.2rem; padding-bottom:1.2rem; border-bottom:1px solid var(--card-border);">
+            <div
+              style="width:38px; height:38px; border-radius:10px; background:var(--accent-dim); color:var(--accent); display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">
+              <i class="fas fa-shield-halved"></i>
+            </div>
+            <div>
+              <h4 style="font-size:1rem; font-weight:800; color:var(--text);">Riposte Défensive</h4>
+              <div
+                style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">
+                SOC Autonome & Agentique</div>
+            </div>
+          </div>
+
+          <div class="veille-card">
+            <h5>L'Agentic SOC</h5>
+            <p>Les LLMs réduisent de <strong>88%</strong> le temps d'investigation. L'IA triage les alertes, génère des
+              synthèses en langage naturel et orchestre les playbooks SOAR (neutralisation en millisecondes).</p>
+          </div>
+          <div class="veille-card">
+            <h5>Souveraineté (IA Act)</h5>
+            <p>Face à l'automatisation offensive, l'UE impose l'<strong>IA Act</strong> et le <strong>CRA</strong>
+              (Cyber Resilience Act 2026), exigeant la souveraineté par conception et une robuste sécurité des modèles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section-pad section-alt" id="certifications">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Projet <span class="accent">Professionnel</span></h2>
+        <p class="section-sub">Vision, ambitions et tableau de synthèse des compétences BTS SIO</p>
+      </div>
+
+      <div
+        style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:2rem; margin-top:2rem;">
+
+        <!-- Projet Professionnel -->
+        <div class="glass-card fade-up" style="padding:2rem;">
+          <div
+            style="display:flex; align-items:center; gap:0.8rem; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid var(--card-border);">
+            <div
+              style="width:42px; height:42px; border-radius:12px; background:rgba(168,85,247,0.15); color:#a855f7; display:flex; align-items:center; justify-content:center; font-size:1.2rem; flex-shrink:0;">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div>
+              <h3 style="font-size:1.1rem; font-weight:800;">Projet Professionnel</h3>
+              <div
+                style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">
+                Vision &amp; Ambitions</div>
+            </div>
+          </div>
+          <p style="font-size:0.9rem; color:var(--text-sec); line-height:1.7; margin-bottom:1.2rem;">Mon objectif est de
+            devenir <strong style="color:var(--text);">Administrateur Systèmes et Réseaux</strong>, en charge de
+            concevoir, déployer et maintenir des infrastructures robustes, sécurisées et performantes.</p>
+          <p style="font-size:0.9rem; color:var(--text-sec); line-height:1.7; margin-bottom:1.5rem;">À moyen terme, je
+            souhaite évoluer vers des responsabilités d'<strong style="color:var(--text);">Architecte Réseau</strong> ou
+            d'<strong style="color:var(--text);">Ingénieur Cybersécurité</strong>, en capitalisant sur mon expertise
+            Cisco et ma passion pour la sécurité des infrastructures.</p>
+          <div class="skill-tags" style="gap:0.5rem; flex-wrap:wrap;">
+            <span class="skill-tag"><i class="fas fa-server"></i> Admin Systèmes &amp; Réseaux</span>
+            <span class="skill-tag"><i class="fas fa-shield-halved"></i> Cybersécurité</span>
+            <span class="skill-tag"><i class="fas fa-diagram-project"></i> Architecture Réseau</span>
+            <span class="skill-tag"><i class="fas fa-cloud"></i> Cloud &amp; Azure</span>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="glass-card fade-up" style="padding:2rem; transition-delay:0.1s;">
+          <div
+            style="display:flex; align-items:center; gap:0.8rem; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid var(--card-border);">
+            <div
+              style="width:42px; height:42px; border-radius:12px; background:rgba(34,197,94,0.15); color:#22c55e; display:flex; align-items:center; justify-content:center; font-size:1.2rem; flex-shrink:0;">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div>
+              <h3 style="font-size:1.1rem; font-weight:800;">Certifications</h3>
+              <div
+                style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">
+                Obtenues &amp; En cours</div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:0.8rem;">
+            <div
+              style="background:rgba(34,197,94,0.07); border:1px solid rgba(34,197,94,0.2); border-radius:10px; padding:0.9rem 1rem;">
+              <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.3rem;">
+                <i class="fas fa-shield-halved" style="color:#22c55e;"></i>
+                <strong style="font-size:0.9rem;">MOOC ANSSI — SecNum</strong>
+              </div>
+              <p style="font-size:0.8rem; color:var(--text-sec); margin:0;">SSI, Authentification, Sécurité réseaux,
+                Internet — Attestation ANSSI</p>
+            </div>
+            <div
+              style="background:rgba(34,197,94,0.07); border:1px solid rgba(34,197,94,0.2); border-radius:10px; padding:0.9rem 1rem;">
+              <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.3rem;">
+                <i class="fas fa-language" style="color:#22c55e;"></i>
+                <strong style="font-size:0.9rem;">PIX — Certification Compétences Numériques</strong>
+              </div>
+              <p style="font-size:0.8rem; color:var(--text-sec); margin:0;">Certification officielle évaluant les
+                compétences numériques (sécurité, communication, collaboration, création de contenu, environnement
+                numérique)</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tableau de synthèse BTS SIO SISR -->
+      <div class="glass-card fade-up" style="margin-top:2.5rem; padding:2rem;">
+        <div
+          style="display:flex; align-items:center; gap:0.8rem; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid var(--card-border);">
+          <div
+            style="width:42px; height:42px; border-radius:12px; background:var(--accent-dim); color:var(--accent); display:flex; align-items:center; justify-content:center; font-size:1.2rem; flex-shrink:0;">
+            <i class="fas fa-table-list"></i>
+          </div>
+          <div>
+            <h3 style="font-size:1.1rem; font-weight:800;">Tableau de Synthèse — Compétences BTS SIO SISR</h3>
+            <div
+              style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">
+              Réalisations Professionnelles E6</div>
+          </div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-sec); margin-bottom:1.5rem;">
+          Le tableau de synthèse récapitule l'ensemble des compétences mobilisées lors de mes différentes missions en
+          entreprise (LGi2A). Il fait le lien direct entre les réalisations professionnelles et le référentiel du BTS
+          SIO.
+        </p>
+        <div style="text-align:center;">
+          <a href="projet/Tableu.pdf" target="_blank" class="btn-primary"
+            style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem 1.2rem;">
+            <i class="fas fa-file-pdf"></i> Consulter le Tableau de Synthèse
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="section-pad" id="contact">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Restons en <span class="accent">Contact</span></h2>
+        <p class="section-sub">Ouvert aux opportunités d'alternance et aux collaborations</p>
+      </div>
+      <div class="contact-grid fade-up">
+        <div class="glass-card contact-card">
+          <i class="fas fa-envelope"></i>
+          <h4>Email</h4>
+          <p>ecoulombel24@gmail.com</p>
+        </div>
+        <div class="glass-card contact-card">
+          <i class="fab fa-linkedin"></i>
+          <h4>LinkedIn</h4>
+          <p>linkedin.com/in/emmanuel-coulombel</p>
+        </div>
+        <div class="glass-card contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h4>Localisation</h4>
+          <p>Maisons-Alfort, France</p>
+        </div>
+      </div>
+      <div style="text-align:center; display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;" class="fade-up">
+        <a href="#" class="btn-primary"><i class="fas fa-download"></i> Télécharger mon CV</a>
+        <a href="Portfolio BTS SIO - Infrastructures réseaux.pdf" target="_blank" class="btn-outline"><i
+            class="fas fa-file-pdf"></i> Mon Portfolio PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/emmanuel-coulombel-31a70a27a/" target="_blank" title="LinkedIn"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:ecoulombel24@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>© 2026 Emmanuel Coulombel • BTS SIO SISR • Lycée Paul Bert</p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TOP -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Retour en haut"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
