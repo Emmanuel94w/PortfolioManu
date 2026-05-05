@@ -325,6 +325,19 @@ section { position: relative; z-index: 1; }
   background:rgba(0,230,138,0.04); border-radius:0 8px 8px 0;
 }
 
+/* === VEILLE TECHNOLOGIQUE === */
+.veille-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; }
+.veille-col { padding:1.5rem; }
+.veille-card {
+  background:rgba(255,255,255,0.02); border:1px solid var(--card-border);
+  border-radius:12px; padding:1.2rem; margin-bottom:1rem; transition:all 0.3s;
+}
+.veille-card:last-child { margin-bottom:0; }
+.veille-card:hover { border-color:rgba(255,255,255,0.1); background:rgba(255,255,255,0.04); }
+.veille-card h5 { font-size:0.95rem; font-weight:700; margin-bottom:0.5rem; color:var(--text); }
+.veille-card p { font-size:0.8rem; color:var(--text-sec); line-height:1.6; }
+.veille-card p strong { color:var(--text); }
+
 /* === CONTACT === */
 .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.5rem; margin-bottom:2rem; }
 .contact-card { text-align:center; padding:2rem 1.5rem; }

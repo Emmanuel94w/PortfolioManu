@@ -32,6 +32,7 @@
         <a href="#competences" class="nav-link">Compétences</a>
         <a href="#projets" class="nav-link">Projets E6</a>
         <a href="#alternance" class="nav-link">Alternance</a>
+        <a href="#veille" class="nav-link">Veille</a>
         <a href="#contact" class="nav-link">Contact</a>
       </div>
       <button class="burger" onclick="toggleMenu()" aria-label="Menu"><i class="fas fa-bars"></i></button>
@@ -43,6 +44,7 @@
       <a href="#competences">Compétences</a>
       <a href="#projets">Projets E6</a>
       <a href="#alternance">Alternance</a>
+      <a href="#veille">Veille</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -439,8 +441,141 @@
     </div>
   </section>
 
+  <!-- VEILLE TECHNOLOGIQUE -->
+  <section class="section-pad section-alt" id="veille">
+    <div class="container">
+      <div class="fade-up">
+        <h2 class="section-title">Veille <span class="accent">Technologique</span></h2>
+        <p class="section-sub">Méthodologie, Outils et Analyse.</p>
+      </div>
+
+      <!-- Introduction & Methodology -->
+      <div class="veille-intro glass-card fade-up" style="margin-bottom: 2.5rem;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom:0.5rem;">L'Impact de l'IA sur la Cybersécurité</h3>
+            <span class="tag" style="background:var(--accent-dim); color:var(--accent); padding:0.3rem 0.8rem; border-radius:99px; font-size:0.75rem; font-weight:700;">Thème 2024-2025</span>
+          </div>
+          <div class="skill-tags" style="gap:0.5rem; flex-wrap:wrap;">
+            <span class="skill-tag">Deepfakes</span>
+            <span class="skill-tag">Malwares IA</span>
+            <span class="skill-tag">SOC Automatisé</span>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+           <div>
+             <h4 style="color:#ef4444; margin-bottom: 0.8rem; display:flex; align-items:center; gap:0.5rem;"><i class="fas fa-biohazard"></i> Nouvelles Menaces</h4>
+             <p style="font-size:0.9rem; color:var(--text-sec); line-height:1.6;">L'IA permet aux attaquants de générer des campagnes de phishing ultra-personnalisées et crédibles à grande échelle. Les malwares "polymorphes" générés par IA modifient leur code en temps réel pour échapper aux antivirus classiques.</p>
+           </div>
+           <div>
+             <h4 style="color:var(--accent); margin-bottom: 0.8rem; display:flex; align-items:center; gap:0.5rem;"><i class="fas fa-shield-virus"></i> Défense Intelligente</h4>
+             <p style="font-size:0.9rem; color:var(--text-sec); line-height:1.6;">En réponse, les SOC (Security Operations Centers) intègrent le Machine Learning pour détecter les anomalies comportementales sur le réseau (UEBA) plus rapidement qu'un humain ne pourrait le faire.</p>
+           </div>
+        </div>
+        
+        <hr style="border:0; border-top:1px solid var(--card-border); margin: 2rem 0;">
+        
+        <div>
+           <h4 style="margin-bottom: 0.8rem; font-size:1.1rem;">Méthodologie & Sources Principales</h4>
+           <p style="font-size:0.9rem; color:var(--text-sec); margin-bottom: 1rem;">J'utilise un agrégateur de flux RSS pour centraliser l'information et gagner du temps.</p>
+           <div class="skill-tags" style="gap:0.6rem;">
+              <span class="skill-tag" style="background:rgba(0,187,45,0.1); border-color:rgba(0,187,45,0.2); color:#00bb2d;"><i class="fas fa-rss"></i> Feedly</span>
+              <span class="skill-tag" style="background:rgba(29,161,242,0.1); border-color:rgba(29,161,242,0.2); color:#1da1f2;"><i class="fab fa-twitter"></i> Twitter/X</span>
+              <span class="skill-tag"><i class="fas fa-shield-halved"></i> ANSSI (Cert-FR)</span>
+              <span class="skill-tag"><i class="fas fa-newspaper"></i> ZDNet Sécurité</span>
+              <span class="skill-tag"><i class="fas fa-laptop-code"></i> BleepingComputer</span>
+              <span class="skill-tag"><i class="fas fa-user-secret"></i> The Hacker News</span>
+           </div>
+        </div>
+      </div>
+
+      <!-- Analyse Prospective Header -->
+      <div class="veille-header glass-card fade-up" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 1.5rem; margin-bottom: 1.5rem; background:rgba(255,255,255,0.02);">
+         <div>
+           <h3 style="font-size: 1.6rem; font-weight: 800; display:flex; align-items:center; gap:0.6rem; margin-bottom:0.4rem;">
+             <i class="fas fa-brain" style="color:#e879f9;"></i> Analyse Prospective 2025-2026
+           </h3>
+           <p style="font-size:0.9rem; color:var(--text-sec); max-width: 700px;">L’Évolution du Paradigme de la Cybersécurité à l’Ère de l’IA. De l'automatisation de l'attaque vers le SOC Autonome.</p>
+         </div>
+         <a href="#" class="btn-primary" style="background:#e8b5ff; color:#1e0033; box-shadow: 0 0 20px rgba(232,181,255,0.3); border:none; flex-shrink:0;">
+           <i class="fas fa-file-pdf"></i> Lire le Dossier Complet
+         </a>
+      </div>
+
+      <!-- Analyse Prospective Grid -->
+      <div class="veille-grid">
+         <!-- Column 1 -->
+         <div class="glass-card veille-col fade-up">
+            <div class="veille-col-header" style="display:flex; align-items:center; gap:0.8rem; margin-bottom: 1.2rem; padding-bottom:1.2rem; border-bottom:1px solid var(--card-border);">
+               <div style="width:38px; height:38px; border-radius:10px; background:rgba(239,68,68,0.15); color:#ef4444; display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">
+                 <i class="fas fa-tachometer-alt"></i>
+               </div>
+               <div>
+                 <h4 style="font-size:1rem; font-weight:800; color:var(--text);">Vélocité d'Attaque</h4>
+                 <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">Breakout Time</div>
+               </div>
+            </div>
+            
+            <div class="veille-card">
+               <h5>Chute du Breakout Time</h5>
+               <p>En 2025, le temps moyen mis par un adversaire pour se déplacer latéralement (breakout time) a chuté à <strong>29 minutes</strong> (contre 62 min en 2024), soit une accélération de 65% grâce à l'IA.</p>
+            </div>
+            <div class="veille-card">
+               <h5>Living Off the AI Land</h5>
+               <p>82% des détections "malware-free" utilisent des IA internes d'entreprise comme outils pour extraire des secrets ou comprendre le réseau, échappant aux détections classiques.</p>
+            </div>
+         </div>
+
+         <!-- Column 2 -->
+         <div class="glass-card veille-col fade-up" style="transition-delay: 0.1s;">
+            <div class="veille-col-header" style="display:flex; align-items:center; gap:0.8rem; margin-bottom: 1.2rem; padding-bottom:1.2rem; border-bottom:1px solid var(--card-border);">
+               <div style="width:38px; height:38px; border-radius:10px; background:rgba(168,85,247,0.15); color:#a855f7; display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">
+                 <i class="fas fa-masks-theater"></i>
+               </div>
+               <div>
+                 <h4 style="font-size:1rem; font-weight:800; color:var(--text);">Déception Synthétique</h4>
+                 <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">Deepfakes & Polymorphisme</div>
+               </div>
+            </div>
+            
+            <div class="veille-card">
+               <h5>Deepfakes & Ingénierie</h5>
+               <p>Une fraude BEC record a coûté <strong>25 millions $</strong> à Hong Kong avec une visio où tous les participants étaient des clones. 51% du spam actuel est écrit par IA (phishing sans erreur multilingue).</p>
+            </div>
+            <div class="veille-card">
+               <h5>Malwares IA & IDPI</h5>
+               <p>Des prototypes comme <strong>Promptflux</strong> utilisent Gemini pour réécrire leur propre payload toutes les heures, échappant à 100% à l'EDR. Risque majeur d'injections de requêtes indirectes (IDPI).</p>
+            </div>
+         </div>
+
+         <!-- Column 3 -->
+         <div class="glass-card veille-col fade-up" style="transition-delay: 0.2s;">
+            <div class="veille-col-header" style="display:flex; align-items:center; gap:0.8rem; margin-bottom: 1.2rem; padding-bottom:1.2rem; border-bottom:1px solid var(--card-border);">
+               <div style="width:38px; height:38px; border-radius:10px; background:var(--accent-dim); color:var(--accent); display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">
+                 <i class="fas fa-shield-halved"></i>
+               </div>
+               <div>
+                 <h4 style="font-size:1rem; font-weight:800; color:var(--text);">Riposte Défensive</h4>
+                 <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:700;">SOC Autonome & Agentique</div>
+               </div>
+            </div>
+            
+            <div class="veille-card">
+               <h5>L'Agentic SOC</h5>
+               <p>Les LLMs réduisent de <strong>88%</strong> le temps d'investigation. L'IA triage les alertes, génère des synthèses en langage naturel et orchestre les playbooks SOAR (neutralisation en millisecondes).</p>
+            </div>
+            <div class="veille-card">
+               <h5>Souveraineté (IA Act)</h5>
+               <p>Face à l'automatisation offensive, l'UE impose l'<strong>IA Act</strong> et le <strong>CRA</strong> (Cyber Resilience Act 2026), exigeant la souveraineté par conception et une robuste sécurité des modèles.</p>
+            </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
-  <section class="section-pad section-alt" id="contact">
+  <section class="section-pad" id="contact">
     <div class="container">
       <div class="fade-up">
         <h2 class="section-title">Restons en <span class="accent">Contact</span></h2>
